@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_500"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/faceb_logo" />
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="80dp"
+        android:hint="example@gmail.com"/>
+
+    <EditText
+        android:id="@+id/etPwd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:inputType="textPassword"
+        android:layout_below="@+id/etEmail"
+        android:layout_marginTop="30dp"
+        android:hint="mot de passe"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/etError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/error"
+        android:visibility="gone"
+        android:layout_below="@+id/etPwd" />
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/white"
+        android:text="SE CONNECTER"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold"
+        android:layout_below="@+id/etPwd"
+        android:layout_marginTop="30dp"
+         />
+
+    <TextView
+        android:layout_toRightOf="@id/btnConnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/btnConnect"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:text="Creer un compte ?"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Besoin d'aide ?"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
