@@ -5,6 +5,12 @@
       <map>
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.13158937772493065" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/activity_post_details.xml" value="0.1434799841458581" />
+        <entry key="app/src/main/res/layout/item_post.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/simple_list_item_1.xml" value="0.1426872770511296" />
+        <entry key="app/src/main/res/menu/home_menu.xml" value="0.21" />
+        <entry key="app/src/main/res/menu/list_context_menu.xml" value="0.1434799841458581" />
+        <entry key="app/src/main/res/menu/list_popup_menu.xml" value="0.21" />
       </map>
     </option>
   </component>

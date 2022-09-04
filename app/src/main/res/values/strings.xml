@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="home_activity_title">Home</string>
+    <string-array name="posts">
+        <item>Message1</item>
+        <item>Message2</item>
+        <item>Message3</item>
+        <item>Message4</item>
+        <item>Message5</item>
+    </string-array>
 </resources>
